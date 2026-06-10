@@ -4,5 +4,7 @@
       "src": "app/package.json",
       "use": "@vercel/next"
     }
-  ]
+  ],
+  "installCommand": "cd app && pnpm install",
+  "buildCommand": "cd app && pnpm run build"
 }
